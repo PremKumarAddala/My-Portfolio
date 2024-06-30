@@ -253,7 +253,7 @@ section{
     font: 20px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .layer p{
     color: black;
@@ -363,3 +363,15 @@ section{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.layer a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
